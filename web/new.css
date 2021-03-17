@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+position: fixed;
+width: 200px;
+height: 500px;
+background: white;
+padding: 10px;
+}
+
+.wrapper .sidebar h2{
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin:20px; 
+}
+
+.wrapper .sidebar ul li{
+  padding: 25px;
+  margin: 1px;
+  border-bottom: 1px ;
+  border-top: 1px ;
+  border-right: 2px ;
+  border-left:  2px ;
+}
+
+
+.wrapper .sidebar ul li:hover{
+background: gray;
+}
+
+.wrapper .sidebar ul li:hover a{
+  color: red;
+}
+
+
+.button {
+  background-color: red;
+  width: 120px;
+  height: 60px;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+
+.main_content{
+
+  top: 100px;
+   height:200px;
+  width: 800px;
+  padding-left:100px;
+  font-size: 42px;
+  position: relative;
+  left: 170px;
+}
+
+.main_content2{
+  
+  
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  position: absolute;
+  left: 850px;
+  top: 100px;
+  bottom: 100px;
+}
+
+.main_content3{
+  left: 260px;
+  position: absolute;
+  top: 300px;
+  display: flex;
+
+  width: 1100px;
+  height: 320px;
+  justify-content:space;
+}
+
+
+.gape1{
+  top: 30px;
+  position: relative;
+}
+
+.art{
+  margin: auto;
+
+}
+td{
+  padding: 2px;
+
+  text-align: center;
+  background-color: black;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  height: 220px;
+  position: relative;
+  width: 200px;
+  border: 10px solid white;
+  border-style: solid;
+
+}
+
+
+#one{
+  
+  color:solid black;
+  padding-left: 1px;
+  background-color: white;
+  border-radius: 19px;
+ 
+}
+#two{
+  
+  color:solid black;
+   background-color: white;
+  border-radius: 19px;
+  padding-left: 1px;
+}
+#three{
+  
+color:solid black;
+ background-color: white;
+border-radius: 19px;
+
+}
+#four{
+    color:solid black;
+   background-color: white;
+  border-radius: 19px;
+}
+#five{
+  
+  color:solid black;
+  background-color: white;
+  border-radius: 19px;
+}
+
+
